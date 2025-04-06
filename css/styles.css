@@ -164,6 +164,32 @@ font-family: var(--font-family);
         text-align: center;
         color: #434455;
 }
+.mainteam {
+    background-color: #F4F4FD;
+}
+
+.team-heading {
+    text-transform: capitalize;
+}
+
+.mainteam ul li {
+    background-color: #FFFFFF;
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.team-member-heading {
+    font-size: 20px;
+    font-weight: bold;
+    color: #2e2f42;
+}
+
+.team-member-description {
+    font-size: 16px;
+    color: #434455;
+    margin-top: 5px;
+}
 /* #endregion main Our Team */
 /* #region our portfolio */
 .portfolio h2 {
