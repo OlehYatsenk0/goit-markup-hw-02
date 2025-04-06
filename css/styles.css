@@ -193,16 +193,17 @@ font-family: var(--font-family);
 .portfolio {
     text-transform: capitalize;
 }
-.portfolio-heading {
-    font-family: "Roboto", sans-serif;
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.11;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #2e2f42;
-.portfolio h3 {
-    font-family: var(--font-family);
+.portfolio-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+    background-color: #FFFFFF
+}
+
+.performed {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -210,19 +211,9 @@ font-family: var(--font-family);
     color: #2e2f42;
 }
 
-.portfolio p {
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 16px;
+.product-type {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
-}
-
-.portfolio ul li {
-    background-color: #FFFFFF;
-    margin: 10px 0;
-    text-align: center;
 }
 /* #endregion our portfolio */
 /* #region footer */
