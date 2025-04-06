@@ -190,6 +190,9 @@ font-family: var(--font-family);
 }
 /* #endregion main Our Team */
 /* #region our portfolio */
+.portfolio {
+    text-transform: capitalize;
+}
 .portfolio h2 {
     font-family: var(--font-family);
     font-weight: 700;
