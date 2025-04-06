@@ -34,7 +34,7 @@ font-family: "Raleway", sans-serif;
     color: #2e2f42;
 }
 /* #region menu nav */
-nav {
+.header-nav {
     font-family: var(--font-family);
         font-weight: 500;
         font-size: 16px;
@@ -44,7 +44,7 @@ nav {
 }
 /* #endregion menu nav */
 /* #region address */
-address {
+.contacts {
 font-family: var(--font-family);
     font-weight: 400;
     font-size: 16px;
@@ -54,7 +54,7 @@ font-family: var(--font-family);
 }
 /* #endregion address */
 /* #region main Effective Solutions */
-h1 {
+.solutions h1 {
     font-family: var(--font-family);
         font-weight: 700;
         font-size: 56px;
@@ -64,7 +64,7 @@ h1 {
         color: #fff;
         background: #2e2f42;
 }
-button {
+.button {
     font-family: var(--font-family);
         font-weight: 500;
         font-size: 16px;
