@@ -53,6 +53,18 @@ font-family: "Raleway", sans-serif;
 }
 /* #endregion menu nav */
 /* #region address */
+.contacts-link {
+    color: #434455;
+}
+.contacts-link:hover {
+    color: #404bbf;
+}
+.contacts-link:focus {
+    color: #404bbf;
+}
+address {
+    font-style: normal;
+}
 .contacts {
 font-family: var(--font-family);
     font-weight: 400;
