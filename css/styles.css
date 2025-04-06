@@ -41,7 +41,7 @@ body {
         line-height: 117%;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: var(--iris);
+        color: #4d5ae5;
  }
 .weblogotwo {
 font-family: var(--second-family);
@@ -50,7 +50,7 @@ font-family: var(--second-family);
     line-height: 117%;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--navy-blue);
+    color: #2e2f42;
 }
 /* #region menu nav */
 nav {
@@ -59,7 +59,7 @@ nav {
         font-size: 16px;
         line-height: 150%;
         letter-spacing: 0.02em;
-        color: var(--navy-blue);
+        color: #2e2f42;
 }
 /* #endregion menu nav */
 /* #region address */
@@ -69,7 +69,7 @@ font-family: var(--font-family);
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
-    color: var(--slate);
+    color: #434455;
 }
 /* #endregion address */
 /* #region main Effective Solutions */
@@ -80,8 +80,8 @@ h1 {
         line-height: 107%;
         letter-spacing: 0.02em;
         text-align: center;
-        color: var(--white);
-        background: var(--navy-blue);
+        color: #fff;
+        background: #2e2f42;
 }
 button {
     font-family: var(--font-family);
@@ -89,8 +89,8 @@ button {
         font-size: 16px;
         line-height: 150%;
         letter-spacing: 0.04em;
-        color: var(--white);
-        background: var(--navy-blue);
+        color: #fff;
+        background: #2e2f42;
 }
 /* #endregion main Effective Solutions */
 /* #region main Sections 1 */
@@ -100,7 +100,7 @@ button {
         font-size: 20px;
         line-height: 120%;
         letter-spacing: 0.02em;
-        color: var(--navy-blue);
+        color: #2e2f42;
 }
 .solutions p {
     font-family: var(--font-family);
@@ -108,7 +108,7 @@ button {
         font-size: 16px;
         line-height: 150%;
         letter-spacing: 0.02em;
-        color: var(--slate);
+        color: #434455;
 }
 /* #endregion main Sections 1 */
 /* #region main Our Team */
@@ -119,7 +119,7 @@ button {
         line-height: 111%;
         letter-spacing: 0.02em;
         text-align: center;
-        color: var(--navy-blue);
+        color: #2e2f42;
 }
 .mainteam h3 {
 font-family: var(--font-family);
@@ -128,7 +128,7 @@ font-family: var(--font-family);
     line-height: 120%;
     letter-spacing: 0.02em;
     text-align: center;
-    color: var(--navy-blue);
+    color: #2e2f42;
 }
 .mainteam p {
     font-family: var(--font-family);
@@ -137,7 +137,7 @@ font-family: var(--font-family);
         line-height: 150%;
         letter-spacing: 0.02em;
         text-align: center;
-        color: var(--slate);
+        color: #434455;
 }
 /* #endregion main Our Team */
 /* #region our portfolio */
@@ -148,7 +148,7 @@ font-family: var(--font-family);
         line-height: 111%;
         letter-spacing: 0.02em;
         text-align: center;
-        color: var(--navy-blue);
+        color: #2e2f42;
 }
 .portfolio h3 {
     font-family: var(--font-family);
@@ -156,7 +156,7 @@ font-family: var(--font-family);
         font-size: 20px;
         line-height: 120%;
         letter-spacing: 0.02em;
-        color: var(--navy-blue);
+        color: #2e2f42;
 }
 .portfolio p {
     font-family: var(--font-family);
@@ -164,7 +164,7 @@ font-family: var(--font-family);
         font-size: 16px;
         line-height: 150%;
         letter-spacing: 0.02em;
-        color: var(--slate);
+        color: #434455
 }
 /* #endregion our portfolio */
 /* #region footer */
@@ -175,7 +175,7 @@ font-family: var(--font-family);
     line-height: 117%;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--iris);
+    color: #4d5ae5;
 }
 .weblogotwoo {
     font-family: var(--second-family);
@@ -184,7 +184,7 @@ font-family: var(--font-family);
         line-height: 117%;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: var(--cloud);
+        color: #f4f4fd;
 }
 footer {
 font-family: var(--font-family);
@@ -192,6 +192,6 @@ font-family: var(--font-family);
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
-    color: var(--cloud);
-    background: var(--navy-blue);
+    color: #f4f4fd;
+    background: #2e2f42;
 }
