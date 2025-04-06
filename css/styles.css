@@ -119,6 +119,22 @@ font-family: var(--font-family);
     font-size: 16px;
     color: #434455;
 }
+.solutions h3 {
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+.solutions p {
+    font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
 /* #endregion solutions */
 /* #region main Our Team */
 .mainteam h2 {
