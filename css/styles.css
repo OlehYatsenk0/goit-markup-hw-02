@@ -19,9 +19,11 @@
 body {
     font-family: "Roboto", sans-serif;
     background: var(--white);
+    color: var(--navy-blue);
 }
  a {
      text-decoration: none;
+     cursor: pointer;
  }
  ul,ol {
      list-style: none;
