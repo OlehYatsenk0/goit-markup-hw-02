@@ -25,6 +25,9 @@ body {
      text-decoration: none;
      cursor: pointer;
  }
+ a:hover {
+     text-decoration: underline;
+ }
  ul,ol {
      list-style: none;
      padding: 0;
@@ -89,7 +92,12 @@ button {
 }
 /* #endregion main Effective Solutions */
 /* #region main Sections 1 */
-.soluction h3 {
+.solutions ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+}
+.solutions h3 {
     font-family: var(--font-family);
         font-weight: 500;
         font-size: 20px;
@@ -97,7 +105,7 @@ button {
         letter-spacing: 0.02em;
         color: var(--navy-blue);
 }
-.soluction p {
+.solutions p {
     font-family: var(--font-family);
         font-weight: 400;
         font-size: 16px;
@@ -107,6 +115,11 @@ button {
 }
 /* #endregion main Sections 1 */
 /* #region main Our Team */
+.mainteam ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 .mainteam h2 {
     font-family: var(--font-family);
         font-weight: 700;
@@ -136,6 +149,11 @@ font-family: var(--font-family);
 }
 /* #endregion main Our Team */
 /* #region our portfolio */
+.portfolio ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 .portfolio h2 {
     font-family: var(--font-family);
         font-weight: 700;
@@ -145,7 +163,7 @@ font-family: var(--font-family);
         text-align: center;
         color: var(--navy-blue);
 }
-.potfolio h3 {
+.portfolio h3 {
     font-family: var(--font-family);
         font-weight: 500;
         font-size: 20px;
