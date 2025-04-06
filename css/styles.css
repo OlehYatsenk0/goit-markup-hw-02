@@ -94,10 +94,6 @@ button {
 }
 /* #endregion main Effective Solutions */
 /* #region main Sections 1 */
-.solutions ul {
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
 .solutions h3 {
     font-family: var(--font-family);
         font-weight: 500;
@@ -116,10 +112,6 @@ button {
 }
 /* #endregion main Sections 1 */
 /* #region main Our Team */
-.mainteam ul {
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
 .mainteam h2 {
     font-family: var(--font-family);
         font-weight: 700;
@@ -149,10 +141,6 @@ font-family: var(--font-family);
 }
 /* #endregion main Our Team */
 /* #region our portfolio */
-.portfolio ul {
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
 .portfolio h2 {
     font-family: var(--font-family);
         font-weight: 700;
