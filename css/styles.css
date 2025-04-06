@@ -175,8 +175,6 @@ font-family: var(--font-family);
 .mainteam ul li {
     background-color: #FFFFFF;
     margin: 10px 0;
-    padding: 20px;
-    border-radius: 5px;
 }
 
 .team-member-heading {
