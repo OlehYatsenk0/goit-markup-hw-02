@@ -19,7 +19,7 @@
 body {
     font-family: "Roboto", sans-serif;
     background: var(--white);
-    color: var(--navy-blue);
+    color: #434455;
 }
  a {
      text-decoration: none;
