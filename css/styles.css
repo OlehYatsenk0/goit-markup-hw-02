@@ -25,6 +25,9 @@ body {
      text-decoration: none;
      cursor: pointer;
  }
+ a:hover {
+     text-decoration: underline;
+ }
  ul,ol {
      list-style: none;
      padding: 0;
@@ -78,6 +81,7 @@ h1 {
         letter-spacing: 0.02em;
         text-align: center;
         color: var(--white);
+        background: var(--navy-blue);
 }
 button {
     font-family: var(--font-family);
@@ -86,10 +90,11 @@ button {
         line-height: 150%;
         letter-spacing: 0.04em;
         color: var(--white);
+        background: var(--navy-blue);
 }
 /* #endregion main Effective Solutions */
 /* #region main Sections 1 */
-.soluction h3 {
+.solutions h3 {
     font-family: var(--font-family);
         font-weight: 500;
         font-size: 20px;
@@ -97,7 +102,7 @@ button {
         letter-spacing: 0.02em;
         color: var(--navy-blue);
 }
-.soluction p {
+.solutions p {
     font-family: var(--font-family);
         font-weight: 400;
         font-size: 16px;
@@ -107,6 +112,11 @@ button {
 }
 /* #endregion main Sections 1 */
 /* #region main Our Team */
+.mainteam ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 .mainteam h2 {
     font-family: var(--font-family);
         font-weight: 700;
@@ -136,6 +146,11 @@ font-family: var(--font-family);
 }
 /* #endregion main Our Team */
 /* #region our portfolio */
+.portfolio ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 .portfolio h2 {
     font-family: var(--font-family);
         font-weight: 700;
@@ -145,7 +160,7 @@ font-family: var(--font-family);
         text-align: center;
         color: var(--navy-blue);
 }
-.potfolio h3 {
+.portfolio h3 {
     font-family: var(--font-family);
         font-weight: 500;
         font-size: 20px;
@@ -162,3 +177,31 @@ font-family: var(--font-family);
         color: var(--slate);
 }
 /* #endregion our portfolio */
+/* #region footer */
+.weblogo {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--iris);
+}
+.weblogotwo {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--navy-blue);
+}
+footer {
+font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: var(--cloud);
+    background: var(--navy-blue);
+}
