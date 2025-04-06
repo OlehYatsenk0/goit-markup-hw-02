@@ -34,6 +34,15 @@ font-family: "Raleway", sans-serif;
     color: #2e2f42;
 }
 /* #region menu nav */
+.nav-link {
+    color: #2e2f42;
+}
+.nav-link:hover {
+    color: #404bbf;
+}
+.nav-link:focus {
+    color: #404bbf;
+}
 .header-nav {
     font-family: var(--font-family);
         font-weight: 500;
