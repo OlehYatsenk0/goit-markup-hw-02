@@ -75,7 +75,10 @@ font-family: var(--font-family);
 }
 /* #endregion address */
 /* #region main Effective Solutions */
-.solutions h1 {
+.solutions {
+    background-color: #2e2f42;
+}
+.effective-solutions {
     font-family: var(--font-family);
         font-weight: 700;
         font-size: 56px;
@@ -86,13 +89,22 @@ font-family: var(--font-family);
         background: #2e2f42;
 }
 .button {
+    background-color: #4D5AE5;
     font-family: var(--font-family);
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 150%;
-        letter-spacing: 0.04em;
-        color: #fff;
-        background: #2e2f42;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #fff;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #404BBF;
+}
+
+.button:focus {
+    background-color: #404BBF;
 }
 /* #endregion main Effective Solutions */
 /* #region main Sections 1 */
