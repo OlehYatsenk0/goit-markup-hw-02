@@ -95,7 +95,6 @@ button {
 /* #endregion main Effective Solutions */
 /* #region main Sections 1 */
 .solutions ul {
-        display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
     }
@@ -118,7 +117,6 @@ button {
 /* #endregion main Sections 1 */
 /* #region main Our Team */
 .mainteam ul {
-    display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
@@ -152,7 +150,6 @@ font-family: var(--font-family);
 /* #endregion main Our Team */
 /* #region our portfolio */
 .portfolio ul {
-    display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
