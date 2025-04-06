@@ -44,13 +44,13 @@ body {
         color: var(--iris);
  }
 .weblogotwo {
-    font-family: var(--second-family);
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 117%;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: var(--navy-blue);
+font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--navy-blue);
 }
 /* #region menu nav */
 nav {
@@ -192,7 +192,7 @@ font-family: var(--font-family);
     text-transform: uppercase;
     color: var(--iris);
 }
-.weblogotwo {
+.weblogotwoo {
     font-family: var(--second-family);
         font-weight: 700;
         font-size: 18px;
